@@ -5,23 +5,23 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         paddingHorizontal: 24,
-        paddingTop: Constants.statusBarHeight + 20
+        paddingTop: Constants.statusBarHeight + 20,
     },
 
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
     },
 
     headerText: {
         fontSize: 15,
-        color: '#737380'
+        color: '#737380',
     },
 
 
     headerTextBold: {
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
 
     title: {
@@ -29,7 +29,7 @@ export default StyleSheet.create({
         marginBottom: 16,
         marginTop: 48,
         color: '#13131a',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
 
     description: {
@@ -39,20 +39,24 @@ export default StyleSheet.create({
     },
 
     incidentList: {
+        /*marginHorizontal: -10,*/
         marginTop: 32,
     },
 
     incident: {
+        maxHeight: 700,
+        maxWidth: 386,
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#FFF',
         marginBottom: 16,
+        /*elevation: 1,*/
     },
 
     incidentProperty: {
         fontSize: 14,
         color: '#41414d',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     },
 
     incidentValue: {
@@ -65,12 +69,12 @@ export default StyleSheet.create({
     detailsButton: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
     },
 
     detailsButtonText: {
         color: '#E02041',
         fontSize: 15,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     }
 });
