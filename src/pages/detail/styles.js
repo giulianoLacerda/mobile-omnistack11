@@ -10,7 +10,7 @@ export default StyleSheet.create({
 
     header: {
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'flex-start',
         alignItems: 'center',
     },
 
@@ -76,6 +76,14 @@ export default StyleSheet.create({
         color: '#FFF',
         fontSize: 15,
         fontWeight: 'bold',
+    },
+
+    headerTitle: {
+        fontSize: 28,
+        paddingLeft: 100,
+        color: '#737380',
+        //color: '#E82041',
+        //fontWeight: 'bold',
     }
 
 });
